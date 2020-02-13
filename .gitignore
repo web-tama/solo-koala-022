@@ -1,0 +1,6 @@
+.vscode
+.eslintignore
+.eslintrc.js
+.prettierrc
+.stylelintrc.js
+delete

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Chilanka|Gayathri|Lato|Manjari|Montserrat|Open+Sans|Roboto|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__item">
+            <a href="#"> <span class="header-nav__span-item">Google</span> Fonts</a>
+          </li>
+          <li class="header-nav__item"><a href="#">FEATURED</a></li>
+          <li class="header-nav__item"><a href="#">CATALOG</a></li>
+          <li class="header-nav__item"><a href="#">ARTICLES</a></li>
+          <li class="header-nav__item"><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <nav class="function-nav">
+        <form>
+          <ul class="function-nav__list">
+            <li class="function-nav__item">
+              <input
+                type="text"
+                placeholder="Search fonts"
+                class="function-nav__inner-item font-input font-search"
+              />
+            </li>
+            <li class="function-nav__item function-nav__item-sp">
+              <input
+                type="text"
+                placeholder="Type something"
+                class="function-nav__inner-item font-input font-text"
+              />
+            </li>
+            <li class="function-nav__item function-nav__item-sp">
+              <input
+                type="text"
+                list="font-size-list"
+                placeholder="32px"
+                class="function-nav__inner-item font-input font-size"
+              />
+              <datalist id="font-size-list">
+                <option class="font-size__item" value="20px">20px</option>
+                <option class="font-size__item" value="24px">24px</option>
+                <option class="font-size__item" value="32px" selected>32px</option>
+                <option class="font-size__item" value="40px">40px</option>
+              </datalist>
+            </li>
+            <li class="function-nav__item function-nav__item-sp">
+              <input
+                type="radio"
+                name="color"
+                value="black"
+                class="function-nav__inner-item color-mode btn-black"
+              />
+              <input
+                type="radio"
+                name="color"
+                value="white"
+                class="function-nav__inner-item color-mode btn-white"
+                checked
+              />
+            </li>
+            <li class="function-nav__item function-nav__item-sp">
+              <button type="button" class="function-nav__inner-item font-btn font-layout">
+                <i class="material-icons icon-list">
+                  list
+                </i>
+              </button>
+            </li>
+            <li class="function-nav__item">
+              <button
+                type="reset"
+                class="function-nav__inner-item font-btn font-reset__item font-reset"
+              >
+                <i class="material-icons">
+                  refresh
+                </i>
+              </button>
+            </li>
+          </ul>
+        </form>
+      </nav>
+      <section>
+        <ul class="fontlist"></ul>
+      </section>
+    </article>
+    <footer>
+      <small>coded by KeikoDev | 2019 | Chingu Pre-Work Project</small>
+    </footer>
+    <button class="back-to-top">
+      <i class="material-icons back-to-top__icon">
+        arrow_upward
+      </i>
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>
